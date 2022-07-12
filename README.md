@@ -14,7 +14,6 @@ https://github.com/aytugyesilyurt/kodluyoruzrepo.git
 ```
 
 ## Usage
----
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız. 
 Linux için:
 ```Linux
@@ -23,9 +22,7 @@ code .
 ```
 
 ## Contributing
----
 Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
 ## Licence
----
 [MIT](https://choosealicense.com/licenses/mit/)
