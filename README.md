@@ -6,9 +6,9 @@ https://app.patika.dev/aytugyesilyurt
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
-## SİTEMİN GÜNCEL GÖRÜNÜŞÜ (15.07.2022)
+## SİTEMİN GÜNCEL GÖRÜNÜŞÜ (19.07.2022)
 
-![site](https://patika-prod.s3-eu-central-1.amazonaws.com/userFiles/aytugyesilyurt/projects/YYepRsJspj9mT5Yyp--kodluyoruzrepo)
+![site](https://patika-prod.s3-eu-central-1.amazonaws.com/userFiles/aytugyesilyurt/projects/xwKwrb9AuuajwFxXo-kodluyoruzrepo)
 
 ## Installation
 Öncelikle projeyi clonelayın.
