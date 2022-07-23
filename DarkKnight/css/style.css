@@ -4,7 +4,18 @@ body {
     background-size: cover;
 }
 
-h1 {
-    color: red;
+h1,h2 {
+    color: slategray;
     margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.main-navigator li {
+    display: inline;
 }
