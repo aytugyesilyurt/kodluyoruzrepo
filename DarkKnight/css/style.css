@@ -1,0 +1,10 @@
+body {
+    background-image: url(../img/city-background.jpg) ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    margin: auto;
+}
