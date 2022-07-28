@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    width: 1000px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    float: left;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+a:active {
+    position: relative;
+    top: 5px;
+}
