@@ -1,0 +1,20 @@
+body {
+    background-color: #FFFFFF;
+}
+
+table {
+    display: table;
+    border-collapse: seperate;
+    box-sizing: border-box;
+    text-indent: initial;
+    
+}
+
+img {
+    aspect-ratio: auto;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
