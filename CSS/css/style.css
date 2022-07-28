@@ -34,3 +34,21 @@ p.blue {
 ul ~ p {
     color: orange;
 }
+
+/* a.test:hover {
+    color: red;
+  } */
+
+a:active {
+position: relative;
+top: 5px;
+}
+
+p::before {
+content: "selam";
+color: orange;
+}
+
+a[href$="org"]:hover{
+    color:red
+}
