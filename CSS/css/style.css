@@ -18,3 +18,19 @@
 .fs-30 {
     font-size: 30px;
 }
+
+p.blue {
+    color: blue;
+}
+
+[name] {
+    color: orange;
+}
+
+/* div p {
+    background-color: aqua;
+} */
+
+ul ~ p {
+    color: orange;
+}
