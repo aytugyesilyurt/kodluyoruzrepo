@@ -1,6 +1,7 @@
 body {
-    background-image: url(../img/city-background.jpg) ;
+    /* background-image: url(../img/city-background.jpg) ; */
     /* background-repeat: no-repeat; */
+    background-color:  #E9ECEF;
     background-size: cover;
 }
 
@@ -18,4 +19,9 @@ ul {
 
 .main-navigator li {
     display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
 }
