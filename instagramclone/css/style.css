@@ -1,9 +1,37 @@
+body {
+  padding-top: 60px;
+  background-color: rgba(105, 104, 104, 0.089);
+}
+
+.navbar-custom {
+  height: 54px;
+  background-color: white;
+}
+
+.card{
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.card-footer{
+background-color: white;
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
 ::placeholder{
-  text-align: center;
+  text-align: left;
   font-size: 14px;
-  color: gray;
+  color: rgba(128, 128, 128, 0.397);
   background-position: 40%;
   background-size: 6%;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  padding-left: 15px;
 }
 
 input.empty {
@@ -12,6 +40,14 @@ input.empty {
     font-weight: normal;
     text-decoration: inherit;
     background-color: #FAFAFA;
+}
+
+.noborder {
+  border: none;
+}
+
+.threedot {
+  float: right;
 }
 
 .postuserfont {
@@ -38,9 +74,16 @@ input.empty {
 .rightpanellinks {
   text-decoration: none;
   color: lightgrey;
+  border: none;
+  background-color: white;
 }
 
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+#sticky-sidebar {
+position: sticky;
+top: 54px;
 }
