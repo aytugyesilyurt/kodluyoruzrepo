@@ -1,84 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bootstrap Tutorial</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Tutorial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-</head>
+	<body>
+		<!-- NAVBAR - START -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Bootstrap Course</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								DEMOS
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="BootstrapDemo/demo1.html">Demo1</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="BootstrapDemo/demo2.html">Demo2</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Examples
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="BootstrapTutorial/row-col.html">Container,Row,Col</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="BootstrapTutorial/offset.html">Offset</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="BootstrapTutorial/responsive.html">Responsive</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="BootstrapTutorial/ui-components.html">UI Components</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Projects
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="">Homework1</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="">Homework2</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- NAVBAR - END-->
 
-<body>
-    <!-- NAVBAR - START -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Bootstrap Course</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            DEMOS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="BootstrapDemo/demo1.html">Demo1</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="BootstrapDemo/demo2.html">Demo2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Examples
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="BootstrapTutorial/row-col.html">Container,Row,Col</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="BootstrapTutorial/offset.html">Offset</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Projects
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="">Homework1</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="">Homework2</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav><!-- NAVBAR - END-->
+		<h1 class="text-center">MAIN PAGE</h1>
 
-    <h1 class="text-center">MAIN PAGE</h1>
+		<h2>STARTER TEMPLATE</h2>
+		<hr />
 
-    <h2>STARTER TEMPLATE</h2>
-    <hr>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-8 offset-md-2">
-                <pre><code class="language-markup">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 offset-md-2">
+					<pre><code class="language-html">
 &lt!doctype html>
 &lthtml lang="en">
 &lthead>
@@ -88,18 +120,40 @@
     &ltlink href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 &lt/head>
 &ltbody>
-    &lth1>Hello, world!&lt/h1>
+&lt!-- NAVBAR - START -->
+&ltnav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    &ltdiv class="container-fluid">
+    &lta class="navbar-brand" href="../index.html">Bootstrap Course&lt/a>
+    &ltbutton class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    &ltspan class="navbar-toggler-icon">&lt/span>
+    &lt/button>
+    &ltdiv class="collapse navbar-collapse" id="navbarNav">
+    &ltul class="navbar-nav ms-auto">
+    &ltli class="nav-item">
+    &lta class="nav-link active" aria-current="page" href="../index.html">Home&lt/a>
+    &lt/li>
+    &ltli class="nav-item dropdown">&lta class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">DEMOS&lt/a>
+    &ltul class="dropdown-menu">
+    &ltli>&lta class="dropdown-item" href="BootstrapDemo/demo1.html">Demo1&lt/a>&lt/li>&ltli>&lta class="dropdown-item" href="BootstrapDemo/demo2.html">Demo2&lt/a>&lt/li>&lt/ul>&lt/li>
+    &ltli class="nav-item dropdown">
+    &lta class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Examples&lt/a>
+    &ltul class="dropdown-menu">&ltli>&lta class="dropdown-item" href="BootstrapTutorial/row-col.html">Container,Row,Col&lt/a>&lt/li>&ltli>&lta class="dropdown-item" href="BootstrapTutorial/offset.html">Offset&lt/a>
+    &lt/li>&lt/ul>&lt/li>
+    &ltli class="nav-item dropdown">
+    &lta class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Projects&lt/a>&ltul class="dropdown-menu">&ltli>&lta class="dropdown-item" href="">Homework1&lt/a>&lt/li>&ltli>&lta class="dropdown-item" href="">Homework2&lt/a>&lt/li>&lt/ul>&lt/li>&lt/ul>&lt/div>&lt/div>&lt/nav>
+&lt!-- NAVBAR - END-->
+
     &ltscript src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">&lt/script>
 &lt/body>
 &lt/html></code></pre>
-            </div>
-        </div>
-    </div>
+				</div>
+			</div>
+		</div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-</body>
-
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
