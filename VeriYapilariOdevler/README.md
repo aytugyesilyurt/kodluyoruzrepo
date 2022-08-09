@@ -1,4 +1,4 @@
-# ÖDEV 1 (Insertion Sort)
+# ÖDEV 1 ( Insertion Sort )
 
 > 1 ) [22,27,16,2,18,6] verilen dizinin sort türüne göre aşamalarını yazınız.
 >
@@ -21,3 +21,16 @@
 > - Ortanca değer olduğu için Average Case.
 
 # ÖDEV 2 ( Merge Sort)
+
+> 1 ) [16,21,11,8,12,22] dizinin sort türüne göre aşamalarını yazınız.
+>
+> - [16,21,11] ... [8,12,22]
+> - [16] ... [21,11] ... [8,12] ... [22]
+> - [16] ... [21] ... [11] ... [8] ... [12] ... [22]
+> - [16] ... [11,21] ... [8,12] ... [22]
+> - [11,16,21] ... [8,12,22]
+> - [8,11,12,16,21,22]
+
+> 2 ) Big-O gösteriminiz yazınız.
+>
+> - O(nlogn)
