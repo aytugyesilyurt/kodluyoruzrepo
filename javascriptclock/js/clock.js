@@ -19,22 +19,22 @@ function getTime() {
 			dayName = "Pazartesi";
 			break;
 		case 2:
-			dayName = "Pazartesi";
+			dayName = "Salı";
 			break;
 		case 3:
-			dayName = "Pazartesi";
+			dayName = "Çarşamba";
 			break;
 		case 4:
-			dayName = "Pazartesi";
+			dayName = "Perşembe";
 			break;
 		case 5:
-			dayName = "Pazartesi";
+			dayName = "Cuma";
 			break;
 		case 6:
-			dayName = "Pazartesi";
+			dayName = "Cumartesi";
 			break;
 		case 7:
-			dayName = "Pazartesi";
+			dayName = "Pazar";
 			break;
 
 		default:
