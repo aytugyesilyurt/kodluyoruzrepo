@@ -33,10 +33,9 @@ function getTime() {
 		case 6:
 			dayName = "Cumartesi";
 			break;
-		case 7:
+		case 0:
 			dayName = "Pazar";
 			break;
-
 		default:
 			dayName = "Bir şeyler ters gitti";
 			break;
@@ -51,7 +50,7 @@ function updateClock() {
 }
 
 // console.log(myNameEl.innerHTML);
-// console.log(realDate.getDay());
+console.log(realDate.getDay());
 // console.log(dayName);
 // console.log(myClock.innerHTML);
 
