@@ -5,7 +5,7 @@ function getSecondLargest(nums) {
 	let maxValue = 0;
 	let secondMaxValue = 0;
 
-	for (i = 0; i < nums.length; i++) {
+	for (i = 0; i < nums.length + 1; i++) {
 		if (nums[i] > maxValue) {
 			secondMaxValue = maxValue;
 			maxValue = nums[i];
