@@ -4,7 +4,6 @@ let listDOM = document.querySelector("#list");
 let newTask = taskDOM.value;
 
 btnDOM.addEventListener("click", addTask);
-// closeDOM.addEventListener("click", removeTask);
 
 function startConf() {
 	const todosStr = localStorage.getItem("todos");
@@ -45,21 +44,17 @@ function addHTML(todo) {
 		}
 	});
 
-	// closeBtn.addEventListener("click", function () {
-	// 	console.log(localStorage.key(0));
-	// 	const removedTask = localStorage.getItem();
-	// });
-
 	closeBtn.addEventListener("click", function () {
 		const todosStr = localStorage.getItem("todos");
 		const liText = closeBtn.parentElement.innerText;
-		console.log(liText);
-		// const todos = JSON.parse(todosStr);
-		// todos.forEach((task) => {
-		// 	console.log(liDOM.innerText);
-		// 	if (liDOM);
-		// 	// console.log(task);
-		// });
+		const todos = JSON.parse(todosStr);
+		todos.forEach((task) => {
+			if (task.trim() == liText.slice(0, -2).trim()) {
+				todos.splice(todos.indexOf(task), 1);
+				localStorage.setItem("todos", JSON.stringify(todos));
+				liDOM.remove();
+			}
+		});
 	});
 }
 
